@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        themeyellow: '#a69f7d'
+      }
+    },
   },
   plugins: [],
   // Optional: Enable purge for production builds

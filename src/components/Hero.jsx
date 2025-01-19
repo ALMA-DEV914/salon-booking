@@ -6,6 +6,10 @@ import { FaHeadphones } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import AOS from 'aos'; 
 import 'aos/dist/aos.css'; // Import the AOS styles
+import scissor from "../assets/images/scissor.png";
+import shaver from "../assets/images/shaver.png";
+import mens from "../assets/images/mens.png";
+import womens from "../assets/images/womens.png";
 
 const Hero = () => {
     useEffect(() => {
@@ -19,13 +23,13 @@ const Hero = () => {
     
     return (
         <>
-        <section id='hero' className='w-full md:px-[120px] md:flex-row px-10 flex flex-col justify-center items-center gap-20'>
+        <section id='hero' className='w-full md:px-[120px] md:flex-row px-10 flex flex-col justify-center items-center gap-20 mt-4'>
             <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
                 <h1 data-aos='zoom-in' className='text-2xl text-black font-semibold'>
                     WELCOME TO
                 </h1>
                 <h1 data-aos="zoom-in" className='text-6xl text-black font-bold'>
-                    JJ Barber Shop<br />in Maraska<br />Roxas
+                    JJ Barber Shop<br />in Maraska<br />Roxas Or Mindoro
                 </h1>
                 <div data-aos='slide-up' id='icon-list' className='flex flex-col justify-center items-start gap-6'>
                     <div id='icon-box' className='flex justify-center gap-3'>
@@ -59,6 +63,16 @@ const Hero = () => {
                 
                 <img src={heroicon} alt='hero' className='rounded-xl w-full md:h-[700px] h-[500px]' />
             </div>
+        </section><br></br>
+        <section className='grid grid-cols-1 md:grid-cols-4 justify-center items-start w-full md:px-[120px] px-10 py-10 gap-10 mt-4'>
+         <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'><img src={scissor} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer'/><h1 className='text-2xl text-black font-semibold'>Regular Haircut</h1>
+         <button className='px-10 py-3 text-white bg-black text-md font-semibold rounded-xl hover:bg-themeyellow hover:text-black cursor-pointer'>MORE</button></div>
+         <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'><img src={mens} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer'/><h1 className='text-2xl text-black font-semibold'>Mens Haircut</h1>
+         <button className='px-10 py-3 text-white bg-black text-md font-semibold rounded-xl hover:bg-themeyellow hover:text-black cursor-pointer'>MORE</button></div>
+         <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'><img src={shaver} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer'/><h1 className='text-2xl text-black font-semibold'>Beard Shave</h1>
+         <button className='px-10 py-3 text-white bg-black text-md font-semibold rounded-xl hover:bg-themeyellow hover:text-black cursor-pointer'>MORE</button></div>
+         <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'><img src={womens} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer'/><h1 className='text-2xl text-black font-semibold'>Womens Haircut</h1>
+         <button className='px-10 py-3 text-white bg-black text-md font-semibold rounded-xl hover:bg-themeyellow hover:text-black cursor-pointer'>MORE</button></div>
         </section>
         </>
     );
