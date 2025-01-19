@@ -10,6 +10,7 @@ import scissor from "../assets/images/scissor.png";
 import shaver from "../assets/images/shaver.png";
 import mens from "../assets/images/mens.png";
 import womens from "../assets/images/womens.png";
+import Whyus from './Whyus';
 
 const Hero = () => {
     useEffect(() => {
@@ -74,6 +75,7 @@ const Hero = () => {
          <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'><img src={womens} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer'/><h1 className='text-2xl text-black font-semibold'>Womens Haircut</h1>
          <button className='px-10 py-3 text-white bg-black text-md font-semibold rounded-xl hover:bg-themeyellow hover:text-black cursor-pointer'>MORE</button></div>
         </section>
+        <Whyus/>
         </>
     );
 };
