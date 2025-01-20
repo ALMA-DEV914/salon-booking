@@ -20,13 +20,19 @@ const Whyus = () => {
                 <p className='text-xl text-black font-lg'>FRIDAY 8AM - 8PM</p>
                 <p className='text-xl text-black font-lg'>SATURDAY 8AM - 8PM</p>
             </div>
+            <button data-oas='zoom-in' className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>Book Online</button>
         </div>
         <div data-aos="slide-up" data-aos-delay='200' className='flex flex-col justify-center items-center gap-6 p-8 rounded-xl md:w-[40%] w-full h-fit'>
             <h1 className='text-6xl text-white font-bold text-center'>Why Choose Us</h1>
             <p className='text-2xl text-white font-bold text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, saepe? Tempore placeat cupiditate repudiandae itaque ipsum, expedita dolores voluptas magnam ullam consequuntur rerum reiciendis minus sequi nemo pariatur aliquam numquam.</p>
             <div id='icon-list' className='flex flex-col justify-center items-start gap-4'>
                 <div className='icon-box flex justify-center items-center gap-3'><FaAngleDoubleRight className="text-white size-6"/>
-                <h1 className='text-xl text-white font-semibold'>Flexible Environment</h1></div>
+                <h1 className='text-xl text-white font-semibold'>Flexible Hours</h1></div>
+                <div className='icon-box flex justify-center items-center gap-3'><FaAngleDoubleRight className="text-white size-6"/>
+                <h1 className='text-xl text-white font-semibold'>Cost friendly</h1></div>
+                <div className='icon-box flex justify-center items-center gap-3'><FaAngleDoubleRight className="text-white size-6"/>
+                <h1 className='text-xl text-white font-semibold'>Knowledgeable Haircutter</h1></div>
+
             </div>
         </div>
     </section>
