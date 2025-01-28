@@ -1,5 +1,5 @@
 import React from "react";
-import services from "../assets/images/logo.jpg";
+import services from "../assets/images/gal7.jpg";
 import sevice1 from "../assets/images/scissor.png";
 import sevice2 from "../assets/images/shaver.png"
 import sevice3 from "../assets/images/mens.png"
@@ -22,25 +22,25 @@ const Services = () => {
       </div>
       <div className="w-[90%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-6">
         <div id="image-box">
-          <img src={services} alt="" data-aos='zoom-in' data-aos-delay='200'/>
+          <img src={services} alt="" data-aos='zoom-in' data-aos-delay='200' className="rounded-xl w-[600px] h-[650px]"/>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-8">
-        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex-col justify-center items-center gap-4 rounde-xl">
-        <img src={sevice1} alt="" data-aos='zoom-in' data-aos-delay='200' className="sie-16 transform hover:scale:110 transition-transform duration-300 cursor-pointer"/>
+        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
+        <img src={sevice1} alt="" data-aos='zoom-in' data-aos-delay='200' className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"/>
         <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
         </div>
         
-        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex-col justify-center items-center gap-4 rounded-xl">
+        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
         <img src={sevice2} alt="" data-aos='zoom-in' data-aos-delay='200' className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"/>
         <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
         </div>
         
-        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex-col justify-center items-center gap-4 rounded-xl">
+        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
         <img src={sevice3} alt="" data-aos='zoom-in' data-aos-delay='200' className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"/>
         <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
         </div>
         
-        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex-col justify-center items-center gap-4 rounded-xl">
+        <div data-aos='zoom-out' data-aos-delay='200' className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
         <img src={service4} alt="" data-aos='zoom-in' data-aos-delay='200' className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"/>
         <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
         </div>
